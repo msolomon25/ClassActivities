@@ -40,3 +40,4 @@ console.log("Hello, my name is " + {add a name} + ", and I am learning " + {add 
 
 //note: Tested this in devtools on my browser and worked once I changed {} to ()
 console.log("Hello, my name is " + (name) + ", and I am learning " + (language) + ". I have been practicing for only " +  (number) + " weeks, so my status as a master is: " + (master) + ".");
+ggg
