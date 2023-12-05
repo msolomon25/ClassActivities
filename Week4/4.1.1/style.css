@@ -1,0 +1,73 @@
+
+* {
+  border: 1px solid;
+  border-color: rgb(180, 180, 180);
+  padding: 5px;
+}
+
+
+a::before {
+  content: "♥";
+  color: brown;
+}
+
+a::after {
+  content: "♥";
+  color: aquamarine;
+}
+
+li.bullet {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: rebeccapurple;
+
+}
+
+
+
+h1, h4 {
+  color: red;
+}
+
+
+
+p::before {
+  content: "=>";
+  color: red;
+}
+
+p::after {
+  content: "<=";
+  color: red;
+}
+
+p {
+
+}
+
+
+
+
+
+
+Add some styling to your bio / portfolio HTML. You may need to add new HTML elements or attributes.
+Include the following types of CSS selectors:
+class & id selectors
+chain a class selector onto a element selector
+group two or more selectors
+select all the child list items from one of your lists
+select an element that is a sibling of another element
+Explore the Box Model by including the following CSS rules:
+use the universal selector to give all elements a border
+add padding and margin on some elements
+add padding and margin only on certain sides of some elements
+Using pseudo-classes, have at least one element change color when someone hovers over it
+
+
+select an element that is a sibling of another element:
+
+use the direct sibling selector
+/* h1 + p {
+color: purple
+} */
+will style the first <p> element that directly follows an h1
